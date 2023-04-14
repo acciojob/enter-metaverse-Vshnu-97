@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-
 <html>
+  <head>
+    <title>Change content on button click</title>
+  </head>
+  <body>
+    <p id="status">Enter the Metaverse</p>
+    <button id="enterBtn" onclick="changeText()">Enter</button>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+    <script>
+      function changeText() {
+        document.getElementById("status").innerHTML = "<h1>Entered Metaverse</h1>";
+      }
+    </script>
+  </body>
 </html>
